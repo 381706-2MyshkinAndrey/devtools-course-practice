@@ -8,7 +8,6 @@
 
 template <typename T>
 class THeap {
-
  public:
   THeap() = default;
   THeap(const THeap<T>& heap) { vector = heap.vector; }

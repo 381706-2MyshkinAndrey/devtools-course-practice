@@ -12,7 +12,7 @@ class Heap_App {
     std::string HelpMessage(const char* appname);
     bool ValidateNumderOfArguments(int argc, const char** argv);
 
-public:
+ public:
     Heap_App() = default;
     Heap_App(const Heap_App&) = default;
 
