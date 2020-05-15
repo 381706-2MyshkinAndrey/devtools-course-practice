@@ -137,11 +137,6 @@ std::vector<T> THeap<T>::HeapSorting(const std::vector<T>&
     for (size_t index = 0; index < result_vector.size(); ++index) {
         result_vector[index] = Remove();
     }
-    //size_t index = result_vector.size();
-    //while (index > 0) {
-    //    result_vector[index] = Remove();
-    //    index--;
-    //}
     return result_vector;
 }
 

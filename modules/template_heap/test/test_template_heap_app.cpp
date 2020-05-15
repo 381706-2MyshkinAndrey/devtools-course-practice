@@ -107,7 +107,8 @@ TEST_F(HeapAppTest, Test_With_Correct_Values_Int) {
 
 TEST_F(HeapAppTest, Test_With_Correct_Values_Double) {
     // Arrange
-    std::vector<std::string> args = { "14.55", "54.2", "65.3", "134.8", "195.0" };
+    std::vector<std::string> args = { "14.55", "54.2", "65.3",
+        "134.8", "195.0" };
 
     // Act
     Act(args);
