@@ -2,11 +2,8 @@
 
 #include <gtest/gtest.h>
 
-// #include <string>
-// #include <vector>
-// #include <algorithm>
-// #include <functional>
-// #include <iterator>
+#include <string>
+#include <vector>
 
 #include "include/template_heap_app.h"
 

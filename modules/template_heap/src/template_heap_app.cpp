@@ -3,9 +3,6 @@
 #include "include/template_heap.h"
 #include "include/template_heap_app.h"
 
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <stdint.h>
 #include <cstdint>
 #include <string>
 #include <sstream>
